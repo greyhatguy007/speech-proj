@@ -30,8 +30,6 @@ Deep Neural Networks have revolutionized the field of speech recognition in rece
 
 This hybrid approach, which combines the strengths of HMMs and DNNs, allows the model to deliver high-quality speech recognition and transcription.
 
-For more information on the technology behind this model, please refer to Google's official documentation and research papers.
-
 <center>
  
 ![HMM](/public/DNN.png)  
