@@ -20,7 +20,7 @@ Hidden Markov Models are a statistical model used in various speech recognition 
 
 <center>
  
-![HMM](./public/HMM.png)  
+![HMM](/public/HMM.png)  
  *overview of HMM*  
  </center>  
 
@@ -34,7 +34,7 @@ For more information on the technology behind this model, please refer to Google
 
 <center>
  
-![HMM](./public/DNN.png)  
+![HMM](/public/DNN.png)  
  *overview of DNN*  
  </center>  
  
@@ -81,7 +81,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
 <center>
  
-![HMM](./public/RNN.png)  
+![HMM](/public/RNN.png)  
  *overview of RNN*  
  </center> 
 
@@ -120,24 +120,24 @@ python main.py
 
 <center>
  
-![Interface 1](./public/SS1.png)
+![Interface 1](/public/SS1.png)
  *Initiating venv and running the Program* 
 
  </center> 
 
 <center>
  
-![Interface 2](./public/SS2.png)
+![Interface 2](/public/SS2.png)
  *Model Anayzing Imported audio file* 
 
  </center> 
 
 <center>
  
-![Interface 3](./public/SS3.png)
+![Interface 3](/public/SS3.png)
  *Result Displayed* 
 
  </center> 
  
 
-### [Application Functioning Video](./public/demo.mkv)
+### [Application Functioning Video](/public/demo.mkv)
