@@ -18,11 +18,9 @@ This speech recognition application leverages Google's advanced speech recogniti
 
 Hidden Markov Models are a statistical model used in various speech recognition systems. They are particularly effective in modeling the acoustic properties of speech, making them an essential component in many automatic speech recognition (ASR) systems.
 
-<center>
- 
+
 ![HMM](/public/HMM.png)  
  *overview of HMM*  
- </center>  
 
 ### Deep Neural Networks (DNNs)
 
@@ -32,12 +30,10 @@ This hybrid approach, which combines the strengths of HMMs and DNNs, allows the 
 
 For more information on the technology behind this model, please refer to Google's official documentation and research papers.
 
-<center>
- 
+
 ![HMM](/public/DNN.png)  
  *overview of DNN*  
- </center>  
- 
+
 ### Long Short-Term Memory (LSTM) Networks
 
 LSTM networks are a type of recurrent neural network (RNN) that excel in capturing long-range dependencies in sequential data, such as speech. The inclusion of LSTM networks in the model enhances its ability to understand and transcribe spoken language.
@@ -79,11 +75,10 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 ```
 **Recurrent Neural Networks (RNNs)** serve as the foundation for **Long Short-Term Memory (LSTM) networks**. LSTMs are a specialized type of RNN designed to address the vanishing gradient problem often encountered in standard RNNs. They are distinguished by their ability to capture long-range dependencies in sequential data, thanks to memory cells and gating mechanisms. These components control the flow of information, allowing LSTMs to retain and update information over extended sequences. LSTMs are particularly effective for tasks like speech recognition, natural language processing, and time series analysis, where preserving long-term context is crucial for accurate predictions and understanding temporal relationships.
 
-<center>
- 
+
 ![HMM](/public/RNN.png)  
  *overview of RNN*  
- </center> 
+
 
 ## Prerequisites For the Application
 
@@ -118,26 +113,20 @@ python main.py
 
 ## Application Interface
 
-<center>
- 
+
 ![Interface 1](/public/SS1.png)
  *Initiating venv and running the Program* 
 
- </center> 
 
-<center>
  
 ![Interface 2](/public/SS2.png)
  *Model Anayzing Imported audio file* 
 
- </center> 
 
-<center>
  
 ![Interface 3](/public/SS3.png)
  *Result Displayed* 
 
- </center> 
  
 
 ### [Application Functioning Video](/public/demo.mkv)
