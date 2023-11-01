@@ -169,7 +169,7 @@ class MainWindow(QMainWindow):
         self.__initUi()
 
     def __initUi(self):
-        self.setWindowTitle('Basic Speech Recognition')
+        self.setWindowTitle('Speech Recognition')
         filePathWidget = FindPathWidget()
         filePathWidget.added.connect(self.__run)
 
